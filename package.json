@@ -1,0 +1,23 @@
+{
+  "name": "reawdicedsensor",
+  "version": "1.0.0",
+  "description": "Read only Humidity data",
+  "main": "ReadFromClientAndSendToDb.js",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "humidy",
+    "wiced"
+  ],
+  "author": "Tareq",
+  "license": "ISC"
+}
