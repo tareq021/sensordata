@@ -15,7 +15,7 @@ var app = express();
 
  var db;
 
- mongodb.MongoClient.connect("mongodb://tareq:tareq@ds157298.mlab.com:57298/sensordb",function(err,database){
+ mongodb.MongoClient.connect(process.env.MONGODB_URI,function(err,database){
      if(err){
          console.log(err);
          process.exit(1);
