@@ -2,7 +2,7 @@
   "name": "reawdicedsensor",
   "version": "1.0.0",
   "description": "Read only Humidity data",
-  "main": "ReadFromClientAndSendToDb.js",
+  "main": "ReadFromClientAndSendToDb_4.js",
   "dependencies": {
     "request": "^2.79.0"
   },
