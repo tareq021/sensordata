@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "start":"node  ReadFromClientAndSendToDb_4.js"
   },
   "repository": {
     "type": "git",
