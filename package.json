@@ -4,7 +4,10 @@
   "description": "Read only Humidity data",
   "main": "ReadFromClientAndSendToDb_4.js",
   "dependencies": {
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.6"
   },
   "devDependencies": {},
   "scripts": {
